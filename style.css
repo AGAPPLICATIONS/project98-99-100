@@ -1,0 +1,77 @@
+div{
+ border: 10px;
+ border-color: black;
+
+
+}
+.bottom{
+text-align: center;
+position: fixed;
+bottom: 0;
+width: 100%;
+background:radial-gradient(red,blue,green,yellow,white,black);
+height: 30;
+color:aqua;
+font-weight: bolder;
+font-size: larger;
+}
+.bottom:hover{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background:radial-gradient(red,blue,green,yellow,white,black,orange,violet,brown,grey,pink);
+    height: 50;
+    color:lawngreen;
+    font-weight:1000;
+    font-size:xx-large;
+
+
+
+
+
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("dancing-dog.gif");
+}
+h1{
+    color: aliceblue;
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+}
+h4{
+    color:aquamarine;
+    font-weight: lighter;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+#camera{
+height: 400px;
+width: 500px;
+border-color: black ;
+border-width: 100px;
+}
+img{
+width: 300px;
+height: 400px;
+border-radius: 2px;
+padding: 10px ;
+box-shadow: 10px;
+margin: 10px;
+}
+img:hover{
+    width: 400px;
+    height: 500px;
+    border-radius: 5px;
+    padding: 20px ;
+    box-shadow: 20px;
+margin: 10px;
+
+}
+.column{
+    display: inline;
+    padding: 30px;
+    
+}
